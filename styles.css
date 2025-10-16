@@ -94,6 +94,82 @@ body{
 .hero-container-image-mobile{
     display: none;
 }
+.product-heading{
+    height: 80px;
+    display: flex;
+    /* border: 1px solid black; */
+    position: relative;
+
+}
+.product-heading-featured{
+position: absolute;
+left: 3%;
+font-family: var(--herodesc-font);
+margin: 0px;
+
+margin-top: 3%;
+ font-weight: 900;
+ 
+}
+
+
+.product-heading-see {
+    position: absolute;
+    right: 3%;
+    font-family: var(--herodesc-font);
+    margin: 0px;
+    margin-top: 3%;
+}
+.product-cards{
+    display: flex;
+    /* border: 1px solid black; */
+    height: 400px;
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 0 3%;
+    
+    
+}
+.product-card{
+  /* border: 1px solid red; */
+  max-width: 350px;
+  flex: 1;
+  position: relative;
+    
+  
+}
+.product-card p{
+    margin: 0px;;
+}
+.product-card img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   
+   
+   }
+   .product-card-h{
+    font-family: var(--herodesc-font);
+   position: absolute;
+   right: 2%;
+   top: 10%;
+   font-size: 0.75rem;
+    color: #f50a99;
+   }
+    .product-card-d{
+     font-family: var(--herodesc-font);
+     position: absolute;
+     left: 20%;
+     
+    }
+
+    .ad-box{
+        margin-top: 6%;
+        background: black;
+        height: 100px;
+        display: flex;
+        flex: 1;
+    }
 
 
 
@@ -129,10 +205,11 @@ body{
     flex-direction: column;
     
     position: absolute;
-    top: 60%;
+    top: 57%;
     left: 3%;
     /* border: 1px solid red; */
-    gap: 10px;
+    gap: 12px;
+    
     
    
 }
@@ -166,7 +243,7 @@ body{
     background: white;
     -webkit-font-smoothing: antialiased;
     margin: 0px;
-    padding: 0rem 1rem  ;
+    padding: 0.3rem 1rem  ;
    
     
     
@@ -175,16 +252,16 @@ body{
 
 
 .hero-content-desc{
-    font-family: var(--heroheading-font);
+    font-family: var(--herodesc-font);
     /* border: 1px solid blue; */
     display: inline-block;
     text-align: left;
     
     line-height: 2rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.7px;
     font-size: 15px;
     color: white;
-    max-width: 80%;
+    max-width: 95%;
     margin: 0px 0px 0px 0px;
     -webkit-font-smoothing: antialiased;
 
@@ -202,7 +279,7 @@ body{
     border: none;
     -webkit-font-smoothing: antialiased;
     font-size: 1rem;
-    font-family: var(--heroheading-font);
+    font-family: var(--herodesc-font);
 
 }
   
