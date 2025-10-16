@@ -167,11 +167,66 @@ margin-top: 3%;
     .ad-box{
         margin-top: 6%;
         background: black;
-        height: 100px;
+        height: 86px;
         display: flex;
         flex: 1;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0% 5%;
     }
+  .ad-box-img{
+    max-width: 200px;
+   height: 30px;
+   padding: 5% 5%;
+  }
+  .ad-box-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .shop-collection{
+    height: 120px;
+    font-family: var(--herodesc-font);
+   
 
+
+  }
+  .shop-collection p{
+    margin: 0px;
+    padding: 3% 3% ;
+  }
+  .shop-now{
+    display: flex;
+    height: 470px;
+    /* border: 1px solid black; */
+    
+  }
+  .shop-now-cards{
+    position: relative;
+    /* border: 1px solid red; */
+    height: 100%;
+   flex: 1;
+    
+   
+  }
+.shop-now-cards img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+   
+   }
+   .shop-now-button{
+    position: absolute;
+    background: white;
+    border: none;
+    /* border: 1px solid black; */
+    font-family: var(--herodesc-font);
+    right: 1%;
+    bottom: 1%;
+    padding: 5.2% 4%;
+    border-radius: 4px;
+   }
 
 
 
