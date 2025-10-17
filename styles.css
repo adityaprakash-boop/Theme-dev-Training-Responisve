@@ -50,11 +50,13 @@ body {
 .hero-content-heading {
   display: flex;
   flex-direction: column;
+  -webkit-font-smoothing: antialiased;
   gap: 10px;
 }
 
 .hero-content h1 {
   font-family: var(--heroheading-font);
+  -webkit-font-smoothing: antialiased;
   font-size: 2.7rem;
   line-height: 1.2;
   margin: 0;
