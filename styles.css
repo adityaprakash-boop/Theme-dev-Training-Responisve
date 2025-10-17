@@ -5,11 +5,13 @@ body{
 :root{
     --heroheading-font: 'Libre Bodoni', sans-serif;
     --herodesc-font: "Zalando Sans Expanded", sans-serif;
+    --productfeatured-font: "archivo-semi-expanded", sans-serif;
+    --productcard-font: "archivo-semi-expanded", sans-serif;
 
 }
 .hero-container{
   position: relative;
-   height: 640px  ;
+  height: 76.9vh;   ;
   
 
     
@@ -37,6 +39,7 @@ body{
     left: 3%;
     /* border: 1px solid red; */
     gap: 10px;
+    width: 47%;
     
    
 }
@@ -56,7 +59,7 @@ body{
     margin: 0px;
     
     background: white;
-    padding: 4px 10px;
+    padding: 1% 2%;
     
     
 }
@@ -70,7 +73,7 @@ body{
 .hero-content-desc{
     font-family: var(--herodesc-font);
     /* border: 1px solid blue; */
-    display: inline-block;
+    display: block;
     text-align: left;
     -webkit-font-smoothing: antialiased;
     max-width: 65%;
@@ -95,7 +98,8 @@ body{
     display: none;
 }
 .product-heading{
-    height: 80px;
+    height: 9.6vh;
+
     display: flex;
     /* border: 1px solid black; */
     position: relative;
@@ -104,13 +108,15 @@ body{
 .product-heading-featured{
 position: absolute;
 left: 3%;
-font-family: var(--herodesc-font);
+font-family: var(--productfeatured-font);
 margin: 0px;
 
 margin-top: 3%;
- font-weight: 900;
+ 
+font-size: 1.1rem;
  
 }
+
 
 
 .product-heading-see {
@@ -123,7 +129,8 @@ margin-top: 3%;
 .product-cards{
     display: flex;
     /* border: 1px solid black; */
-    height: 400px;
+    height: 48.1vh;
+
     max-width: 100%;
     justify-content: space-between;
     padding: 0 3%;
@@ -158,16 +165,20 @@ margin-top: 3%;
     color: #f50a99;
    }
     .product-card-d{
-     font-family: var(--herodesc-font);
+     font-family: var(--productcard-font);
      position: absolute;
      left: 20%;
+     font-size: 0.9rem;
+     
      
     }
+  
 
     .ad-box{
         margin-top: 6%;
         background: black;
-        height: 86px;
+        height: 10.34vh;
+
         display: flex;
         flex: 1;
         justify-content: space-between;
@@ -175,9 +186,10 @@ margin-top: 3%;
         padding: 0% 5%;
     }
   .ad-box-img{
-    max-width: 200px;
-   height: 30px;
-   padding: 5% 5%;
+    max-width: 280px;
+   height: 3.61vh;
+
+   padding: 7% 7%;
   }
   .ad-box-img img{
     height: 100%;
@@ -185,19 +197,26 @@ margin-top: 3%;
     object-fit: cover;
   }
   .shop-collection{
-    height: 120px;
-    font-family: var(--herodesc-font);
+    height: 14.42vh;
+    box-sizing: border-box;
+
+    font-family: var(--productfeatured-font);
+    font-size: 0.8rem;
+    padding-top: 2.3%;
+    padding-left: 2%;
+    margin: 0;
    
 
 
   }
-  .shop-collection p{
-    margin: 0px;
-    padding: 3% 3% ;
-  }
+  .shop-collection h2 {
+    margin: 0;      /* removes top and bottom margins */
+         /* optional, remove padding if any */
+}
   .shop-now{
     display: flex;
-    height: 470px;
+    height: 67.49vh;
+
     /* border: 1px solid black; */
     
   }
@@ -235,7 +254,8 @@ margin-top: 3%;
 @media (max-width: 768px){
     .hero-container{
   position: relative;
-   height: 550px  ;
+   height: 66.06vh;
+  ;
   
 
     
