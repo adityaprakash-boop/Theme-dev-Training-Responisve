@@ -442,3 +442,28 @@ body {
     font-size: 0.75rem;
   }
 }
+.hero-content button {
+  cursor: pointer;
+}
+
+.hero-content button:hover {
+  background: white;
+  color: black;
+  border: 1px solid black; /* keeps shape visible */
+  cursor: pointer;
+}
+
+/* Shop Now button hover */
+.shop-now-button {
+
+  cursor: pointer;
+}
+
+.shop-now-button:hover {
+  background: transparent;
+  color: white; /* keeps text visible over the image */
+  border: 1px solid white; /* optional outline */
+}
+.product-cards{
+  cursor: pointer;
+}
